@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
 Bundle-SymbolicName: Reliance_POC; singleton:=true
 Bundle-Name: Reliance_POC
-Bundle-Version: 2.0.0
+Bundle-Version: 1.0.0
 Bundle-ManifestVersion: 2
 Origin-Bundle-SymbolicName: Reliance_POC
 SAP-NodeType: IFLMAP
