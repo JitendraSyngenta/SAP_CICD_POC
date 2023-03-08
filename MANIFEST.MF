@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 SAP-RuntimeProfile: iflmap
-Bundle-SymbolicName: Rest_API_POC; singleton:=true
-Bundle-Name: Rest API POC
-Bundle-Version: 1.0.0
+Bundle-SymbolicName: Reliance_POC; singleton:=true
+Bundle-Name: Reliance_POC
+Bundle-Version: 2.0.0
 Bundle-ManifestVersion: 2
-Origin-Bundle-SymbolicName: Rest_API_POC
+Origin-Bundle-SymbolicName: Reliance_POC
 SAP-NodeType: IFLMAP
 Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ap.esb.security,com.sap.it.op.agent.api,com.sap.it.op.agent.collector
@@ -32,8 +32,8 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
  ,com.sap.esb.camel.endpoint.configurator.api,com.sap.esb.camel.jdbc.i
  dempotency.reorg,javax.sql,org.apache.camel.processor.idempotent.jdbc
  ,org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
-Origin-Bundle-Name: Rest API POC
-SAP-BundleType: RESTAPIProvider
+Origin-Bundle-Name: Reliance_POC
+SAP-BundleType: IntegrationFlow
 Import-Service: com.sap.esb.webservice.audit.log.AuditLogger,com.sap.e
  sb.security.KeyManagerFactory;multiple:=false,com.sap.esb.security.Tr
  ustManagerFactory;multiple:=false,javax.sql.DataSource;multiple:=fals
